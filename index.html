@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>ศูนย์บริการอิเล็กทรอนิกส์ | โรงเรียนบ้านหาดส้มแป้น</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="wrap topbar__inner">
+      <div class="brand">
+        <img id="logo" class="brand__logo" alt="โลโก้โรงเรียน" />
+        <div class="brand__text">
+          <div class="brand__title" id="siteTitle">ศูนย์บริการอิเล็กทรอนิกส์</div>
+          <div class="brand__subtitle" id="siteSubtitle">โรงเรียนบ้านหาดส้มแป้น</div>
+        </div>
+      </div>
+
+      <a class="chip" id="mainWebsite" href="https://www.banhadsompan.ac.th/" target="_blank" rel="noopener">
+        เว็บไซต์หลักโรงเรียน
+      </a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <div class="hero__text">
+        <h1 class="hero__h1">E-Services</h1>
+        <p class="hero__p" id="aboutText">
+          ศูนย์บริการอิเล็กทรอนิกส์ เพื่ออำนวยความสะดวกแก่ประชาชนและผู้มีส่วนได้ส่วนเสีย (ตามเกณฑ์ ITA)
+        </p>
+        <div class="hero__meta">
+          <span class="badge">สำหรับครู</span>
+          <span class="badge">สำหรับนักเรียน</span>
+          <span class="badge">บริการทั่วไป</span>
+        </div>
+      </div>
+
+      <div class="hero__media" id="heroMedia">
+        <img id="heroImg" class="hero__img" alt="ภาพหน้าปก" />
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section__title">เลือกบริการ</h2>
+
+      <div class="cards">
+        <a class="card" id="service1_link" href="#" target="_blank" rel="noopener">
+          <div class="card__head">
+            <div class="card__icon" aria-hidden="true">👩‍🏫</div>
+            <div>
+              <div class="card__title" id="service1_name">สำหรับครู</div>
+              <div class="card__desc" id="service1_desc"></div>
+            </div>
+          </div>
+          <div class="card__cta">เข้าสู่บริการ →</div>
+        </a>
+
+        <a class="card" id="service2_link" href="#" target="_blank" rel="noopener">
+          <div class="card__head">
+            <div class="card__icon" aria-hidden="true">👧🧒</div>
+            <div>
+              <div class="card__title" id="service2_name">สำหรับนักเรียน</div>
+              <div class="card__desc" id="service2_desc"></div>
+            </div>
+          </div>
+          <div class="card__cta">เข้าสู่บริการ →</div>
+        </a>
+
+        <a class="card" id="service3_link" href="#" target="_blank" rel="noopener">
+          <div class="card__head">
+            <div class="card__icon" aria-hidden="true">🏛️</div>
+            <div>
+              <div class="card__title" id="service3_name">บริการทั่วไป</div>
+              <div class="card__desc" id="service3_desc"></div>
+            </div>
+          </div>
+          <div class="card__cta">เข้าสู่บริการ →</div>
+        </a>
+      </div>
+    </section>
+
+    <section class="section contact">
+      <div class="contact__left">
+        <h2 class="section__title">ติดต่อ</h2>
+
+        <div class="info">
+          <div class="info__row">
+            <div class="info__k">โทร</div>
+            <a class="info__v" id="phone" href="#"></a>
+          </div>
+
+          <div class="info__row">
+            <div class="info__k">อีเมล</div>
+            <a class="info__v" id="email" href="#"></a>
+          </div>
+
+          <div class="info__row">
+            <div class="info__k">ที่อยู่</div>
+            <div class="info__v" id="address"></div>
+          </div>
+
+          <div class="info__row">
+            <div class="info__k">Facebook</div>
+            <a class="info__v" id="facebook_url" href="#" target="_blank" rel="noopener">เปิดหน้าเพจ →</a>
+          </div>
+
+          <div class="info__row">
+            <div class="info__k">แผนที่</div>
+            <a class="info__v" id="map_url" href="#" target="_blank" rel="noopener">เปิดใน Google Maps →</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact__right">
+        <div class="map">
+          <iframe id="map_embed" title="แผนที่โรงเรียน" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>© <span id="year"></span> โรงเรียนบ้านหาดส้มแป้น</div>
+      <div class="footer__small">อัปเดตข้อมูลจากผู้ดูแลผ่านไฟล์ config.json</div>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
