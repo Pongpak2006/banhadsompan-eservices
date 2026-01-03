@@ -1,0 +1,36 @@
+{
+  "primary_color": "#7f0101",
+  "accent_color": "#10b981",
+  "school_name": "โรงเรียนบ้านหาดส้มแป้น",
+  "school_name_en": "Banhadsompan School",
+  "hero_title": "โรงเรียนบ้านหาดส้มแป้น",
+  "hero_subtitle": "เพื่ออำนวยความสะดวกแก่ประชาชนและผู้มีส่วนได้ส่วนเสีย (ตามเกณฑ์ ITA)",
+
+  "service1_name": "E-Services สำหรับครู",
+  "service1_desc": "งานเอกสาร งานวิชาการ ระบบสารสนเทศ และบริการสนับสนุนการเรียนการสอน",
+  "service1_link": "https://www.banhadsompan.ac.th/datashow_11181",
+
+  "service2_name": "E-Services สำหรับนักเรียน",
+  "service2_desc": "ข้อมูลนักเรียน ผลการเรียน ตารางเรียน กิจกรรม และบริการเรียนรู้ออนไลน์",
+  "service2_link": "https://www.banhadsompan.ac.th/datashow_11182",
+
+  "service3_name": "E-Services บริการทั่วไป",
+  "service3_desc": "บริการประชาชน ผู้ปกครอง ข้อมูลโรงเรียน และช่องทางติดต่อสื่อสาร",
+  "service3_link": "https://www.banhadsompan.ac.th/datashow_11183",
+
+  "about_content": "โรงเรียนของเราได้จัดตั้งศูนย์บริการอิเล็กทรอนิกส์ เพื่อพัฒนาการให้บริการข้อมูลและงานบริการต่าง ๆ ... (แก้ได้)",
+
+  "phone": "098-048-3906",
+  "email": "admin@banhadsompan.ac.th",
+  "address": "333 หมู่ที่ 11 ตำบลท่าข้าม อำเภอท่าแซะ จังหวัดชุมพร 86140",
+
+  "facebook_url": "https://www.facebook.com/profile.php?id=100063666448649",
+  "map_embed_url": "https://www.google.com/maps/embed?pb=...ของคุณ...",
+  "map_url": "https://maps.app.goo.gl/STGfaGVP8ja8xBMG6",
+
+  "logo_image": "",
+  "hero_image": "",
+  "service1_image": "",
+  "service2_image": "",
+  "service3_image": ""
+}
